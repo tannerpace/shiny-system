@@ -12,7 +12,7 @@ export default function Contact() {
                 </div>
                 <div class="contact-links">
 
-                    <a id="profile-link" href="https://github.com/tannerpace" target="_blank" class="btn contact-details"><i
+                    <a id="profile-link" href="https://github.com/tannerpace" target="_blank" class="btn contact-details" rel="noreferrer"><i
                         class="fab fa-github"></i> GitHub</a>
 
                     <a href="mailto:tannerpace@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send an
