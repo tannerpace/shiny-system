@@ -1,6 +1,9 @@
 import React from 'react'
 
-const Header = () => {
+
+const Nav = () => {
+
+
     return (<nav id="navbar" class="nav">
         <ul class="nav-list">
             <li>
@@ -17,8 +20,10 @@ const Header = () => {
                 <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#welcome-section"
                     class="btn btn-sm animated-button victoria-three">About</a> </div>
             </li>
+
         </ul>
+
     </nav>)
 }
 
-export default Header
+export default Nav

@@ -1793,6 +1793,15 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
+"@tanem/svg-injector@^10.1.6":
+  version "10.1.7"
+  resolved "https://registry.yarnpkg.com/@tanem/svg-injector/-/svg-injector-10.1.7.tgz#9571b8ec32145f5429044148d1e09599d725fa2e"
+  integrity sha512-dS5QJ/p1HATAWnC5ysCyOPL/QLpqtHOQnRpS+FcYCznBEb/lMORwFeXhnUODcHt/Yo0XyRrtFIFNIYzXAVdZmA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    content-type "^1.0.4"
+    tslib "^2.3.1"
+
 "@testing-library/dom@^7.28.1":
   version "7.31.2"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"
@@ -3681,7 +3690,7 @@ content-disposition@0.5.3:
   dependencies:
     safe-buffer "5.1.2"
 
-content-type@~1.0.4:
+content-type@^1.0.4, content-type@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
@@ -9381,6 +9390,16 @@ react-simple-typewriter@^3.0.1:
   resolved "https://registry.yarnpkg.com/react-simple-typewriter/-/react-simple-typewriter-3.0.1.tgz#5dc7b924a2e1a96950b5a2064f2dfbdfe1f8a60d"
   integrity sha512-z+aJugzvYPng9HoggyXNpnp7NjxtusGAb33bRaGRK2pEdirVKX4v3qrwdHqs6zdhCeLAthLGLtxgVX9oGekTLg==
 
+react-svg@^14.0.15:
+  version "14.0.15"
+  resolved "https://registry.yarnpkg.com/react-svg/-/react-svg-14.0.15.tgz#44f747ec771dff606a5462b794d9707db7921780"
+  integrity sha512-VZ9biBtLDqtRrcLfGhRF7uMGZYNg9DIiChalVHswfrrKVmeEXRg+uuKImwLdks2Ci7jV+F+jIOgYEQT0GEpKMw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@tanem/svg-injector" "^10.1.6"
+    "@types/prop-types" "^15.7.4"
+    prop-types "^15.7.2"
+
 react-transition-group@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
@@ -10894,6 +10913,11 @@ tslib@^2.0.3:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
+
+tslib@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
 tsutils@^3.17.1:
   version "3.20.0"

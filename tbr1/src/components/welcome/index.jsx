@@ -1,8 +1,11 @@
 import React from 'react'
 import MyTyper from '../MyTyper'
 import Box from '@mui/material/Box';
-import { autocompleteClasses } from '@mui/material';
-const Welcome = () => {
+export default function Welcome({ toggleResume, isResume }) {
+    const handleToggle = () => {
+        console.log(`isResume`, isResume)
+        toggleResume()
+    }
     return (
 
 
@@ -16,9 +19,14 @@ const Welcome = () => {
         >
             <div class="welcome-section" id="welcome-section">
                 <MyTyper></MyTyper>
+                <div onClick={handleToggle}>Resume</div>
             </div>
+            <section id="section05" class="demo">
+
+                <a>  <span></span></a>
+            </section>
         </Box>
 
     )
 }
-export default Welcome
+

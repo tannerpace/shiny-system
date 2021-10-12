@@ -8,7 +8,7 @@ export default function Projects() {
 
                 <div class="projects-grid">
                     <a href="https://tannerpace.github.io/crispy-couscous/" target="_blank" class="project project-tile" rel="noreferrer">
-                        <img class="project-image" src="../../assets/imgs/typer.png" alt="project" />
+                        <img class="project-image" src="images/typer.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Typing Test
@@ -16,7 +16,7 @@ export default function Projects() {
                         </p>
                     </a>
                     <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" target="_blank" class="project project-tile" rel="noreferrer">
-                        <img class="project-image" src="./assets/imgs/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
+                        <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Parts Store
@@ -24,7 +24,7 @@ export default function Projects() {
                         </p>
                     </a>
                     <a href="https://tannerpace.github.io/Todo-React/" target="_blank" class="project project-tile" rel="noreferrer">
-                        <img class="project-image" src="../assets/imgs/todosmall.png" alt="project" />
+                        <img class="project-image" src="images/todosmall.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Time To Todo App
@@ -33,7 +33,7 @@ export default function Projects() {
                     </a>
                     <a href="https://singlepage.d1zqi00jmrlymq.amplifyapp.com/#page-top" target="_blank" rel="noreferrer"
                         class="project project-tile">
-                        <img class="project-image" src="./assets/imgs/air.png" alt="project" />
+                        <img class="project-image" src='images/airautooffset.png' alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Airautonomo Business
@@ -41,7 +41,7 @@ export default function Projects() {
                         </p>
                     </a>
                     <a href="./pages/shapley.html" target="_blank" class="project project-tile">
-                        <img class="project-image" src="./assets/imgs/shapely.png" alt="project" />
+                        <img class="project-image" src="images/shapely.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Tribute Page To Lloyd Shapley
