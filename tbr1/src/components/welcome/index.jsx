@@ -24,7 +24,7 @@ export default function Welcome({ toggleResume, isResume }) {
             </div>
             <section id="section05" class="demo">
 
-                <a>  <span></span></a>
+                <a href='#projects'>  <span></span></a>
             </section>
         </Box>
 
