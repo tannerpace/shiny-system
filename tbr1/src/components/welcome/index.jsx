@@ -1,6 +1,7 @@
 import React from 'react'
 import MyTyper from '../MyTyper'
 import Box from '@mui/material/Box';
+import { Button } from '@mui/material';
 export default function Welcome({ toggleResume, isResume }) {
     const handleToggle = () => {
         console.log(`isResume`, isResume)
@@ -19,7 +20,7 @@ export default function Welcome({ toggleResume, isResume }) {
         >
             <div class="welcome-section" id="welcome-section">
                 <MyTyper></MyTyper>
-                <div onClick={handleToggle}>Resume</div>
+                <Button class="btn victoria-one " onClick={handleToggle}>Resume</Button>
             </div>
             <section id="section05" class="demo">
 

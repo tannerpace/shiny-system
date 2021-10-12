@@ -12,10 +12,10 @@ export default function Resume({ toggleResume }) {
 
     return (
         <div class="resume-container">
-            <li onClick={handleToggle}>
-                <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#projects"
-                    class="btn btn-sm animated-button victoria-two">Back</a> </div>
-            </li>
+            <div onClick={handleToggle}>
+                <a href="#projects"
+                    class="btn btn-sm animated-button victoria-two">Back</a>
+            </div>
             <ReactSVG
                 src="svgs/resume.svg"
             />
