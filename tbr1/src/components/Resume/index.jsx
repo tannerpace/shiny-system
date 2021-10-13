@@ -11,7 +11,7 @@ export default function Resume() {
                     class="btn btn-sm animated-button victoria-three">Back</a> */}
             </div>
             <ReactSVG
-                src="images/resume.svg"
+                src=".resume.svg"
             />
 
             resumewokr
