@@ -13,7 +13,7 @@ export default function Resume() {
             <ReactSVG
                 src="svgs/resume.svg"
             />
-            Resume WOrks
+
 
         </div>
     )
