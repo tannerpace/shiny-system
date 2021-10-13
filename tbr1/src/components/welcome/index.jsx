@@ -20,7 +20,7 @@ export default function Welcome({ toggleResume, isResume }) {
         >
             <div class="welcome-section" id="welcome-section">
                 <MyTyper></MyTyper>
-                <Button class="btn victoria-one " onClick={handleToggle}>Resume</Button>
+                <Button fullWidth onClick={handleToggle}>Resume</Button>
             </div>
             <section id="section05" class="demo">
 

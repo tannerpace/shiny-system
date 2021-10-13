@@ -14,9 +14,6 @@ function App() {
   const [isResume, setResume] = useState(false)
   return (
     <div className="App">
-      {!isResume ? (<Nav />) : (<></>)
-      }
-
       <Home isResume={isResume} toggleResume={() => setResume(!isResume)} />
     </div >
   );

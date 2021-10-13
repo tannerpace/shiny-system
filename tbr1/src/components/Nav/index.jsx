@@ -6,23 +6,23 @@ const Nav = () => {
         <nav id="navbar" class="nav">
             <ul class="nav-list">
                 <li>
-                    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#contact"
+                    <div > <a href="#contact"
                         class="btn btn-sm animated-button victoria-one">Contact</a> </div>
                 </li>
 
                 <li>
-                    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#projects"
+                    <div > <a href="#projects"
                         class="btn btn-sm animated-button victoria-two">Projects</a> </div>
                 </li>
 
                 <li>
-                    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#welcome-section"
+                    <div> <a href="#welcome-section"
                         class="btn btn-sm animated-button victoria-three">About</a> </div>
                 </li>
 
-            </ul>
+            </ul >
 
-        </nav>)
+        </nav >)
 }
 
 export default Nav
