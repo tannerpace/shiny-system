@@ -12,7 +12,7 @@ import App from '../../App';
 import Nav from '../Nav';
 
 function HideOnScroll(props) {
-    const { children, window } = props;
+    const { children, window, isResume } = props;
     // Note that you normally won't need to set the window ref as useScrollTrigger
     // will default to window.
     // This is only being set here because the demo is in an iframe.
@@ -21,7 +21,7 @@ function HideOnScroll(props) {
     });
 
     return (
-        <Slide appear={false} direction="down" in={!trigger}>
+        <Slide appear={false} direction="right" in={!trigger && !isResume}>
             {children}
         </Slide>
     );
