@@ -11,7 +11,7 @@ export default function Projects() {
                         <img class="project-image" src="images/typer.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
-                            Typing Test
+                            Javascript-or-English-Typing-Test
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
@@ -19,7 +19,7 @@ export default function Projects() {
                         <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
-                            Parts Store
+                            Full-Stack-Ecommerce-Parts-Store
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
@@ -27,7 +27,15 @@ export default function Projects() {
                         <img class="project-image" src="images/todo.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
-                            Time To Todo App
+                            A-Todo-App-With-Filter
+                            <span class="code">&#47;&gt;</span>
+                        </p>
+                    </a>
+                    <a href="https://tannerpace.github.io/MemeMaker/" target="_blank" class="project project-tile">
+                        <img class="project-image" src="images/mememaker.png" alt="project" />
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Meme-Maker-App
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
@@ -36,7 +44,7 @@ export default function Projects() {
                         <img class="project-image" src="images/air.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
-                            Airautonomo Business
+                            Airautonomo-Business-Page
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
@@ -44,7 +52,7 @@ export default function Projects() {
                         <img class="project-image" src="images/shaple.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
-                            Tribute Page To Lloyd Shapley
+                            Tribute-Page-To-Lloyd-Shapley
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
