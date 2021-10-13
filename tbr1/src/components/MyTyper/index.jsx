@@ -19,7 +19,7 @@ const MyTyper = () => {
     })
 
     return (
-        <div id="typing" className='typer'>
+        <div className='typer code'>
 
             <div class="talk-bubble tri-right border round btm-left-in">
                 <div class="talktext">
