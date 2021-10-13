@@ -8,18 +8,10 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
-
+import Home from '../Home';
 import Nav from '../Nav';
-import Welcome from '../Welcome'
-import Projects from '../Projects'
-import Resume from "../Resume"
-import Contact from "../Contact"
-import {
 
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+
 
 
 
@@ -39,26 +31,7 @@ function HideOnScroll(props) {
     );
 }
 
-function Components() {
 
-    return (
-        <div>
-
-
-            <Switch>
-                <Route exact path="/">
-                    <Welcome />
-                    <Projects />
-                    <Contact />
-                </Route>
-                <Route path="/tannerbleakley">
-                    <Resume />
-                </Route>
-            </Switch>
-        </div>
-
-    );
-}
 
 export default function HideAppBar(props) {
     return (
@@ -75,7 +48,7 @@ export default function HideAppBar(props) {
             <Toolbar />
             <Container>
                 <Box sx={{ my: 2 }}>
-                    <Components />
+                    <Home />
                 </Box>
             </Container>
         </React.Fragment>

@@ -14,7 +14,7 @@ export default function Resume() {
                 src="svgs/resume.svg"
             />
 
-
+            resumewokr
         </div>
     )
 }

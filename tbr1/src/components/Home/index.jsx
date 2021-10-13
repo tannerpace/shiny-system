@@ -6,19 +6,28 @@ import Contact from '../Contact'
 import Nav from '../Nav'
 import Resume from '../Resume'
 
+
+import {
+
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 export default function Home() {
 
 
     return (
         <div>
-            <Box >
-                <Box>
+            <Switch>
+                <Route exact path="/shiny-system">
                     <Welcome />
                     <Projects />
                     <Contact />
+                </Route>
+                <Route path="/shiny-system/resume">
                     <Resume />
-                </Box>
-            </Box>
+                </Route>
+            </Switch>
         </div>
     )
 }

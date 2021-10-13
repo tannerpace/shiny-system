@@ -9,19 +9,19 @@ const Nav = () => {
             <ul class="nav-list">
                 <li>
                     <div >
-                        <HashLink to="/#contact" class="btn btn-sm animated-button victoria-one">Contact</HashLink></div>
+                        <HashLink smooth to="/shiny-system#contact" class="btn btn-sm animated-button victoria-one">Contact</HashLink></div>
                 </li>
 
                 <li>
-                    <div ><HashLink to="/#projects"
+                    <div ><HashLink smooth to="/shiny-system#projects"
                         class="btn btn-sm animated-button victoria-two">Projects</HashLink>  </div>
                 </li>
 
                 <li>
-                    <div><HashLink to="/#about" class="btn btn-sm animated-button victoria-two">About</HashLink> </div>
+                    <div><Link smooth to="/shiny-system#about" class="btn btn-sm animated-button victoria-two">About</Link> </div>
                 </li>
                 <li>
-                    <div ><HashLink to="/tannerbleakley#resume" class="btn btn-sm animated-button victoria-two" >Resume</HashLink></div>
+                    <div ><HashLink smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two" >Resume</HashLink></div>
                 </li>
 
             </ul >
