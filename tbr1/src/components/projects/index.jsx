@@ -49,7 +49,7 @@ export default function Projects() {
                         </p>
                     </a>
                     <a href="./pages/shapley.html" target="_blank" class="project project-tile">
-                        <img class="project-image" src="images/shaple.png" alt="project" />
+                        <img class="project-image" src="images/shapley.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             Tribute-Page-To-Lloyd-Shapley
