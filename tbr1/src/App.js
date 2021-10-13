@@ -1,22 +1,11 @@
 import './App.css'
-import Home from './Components/Home'
-import Nav from './Components/Nav'
-import Resume from './Components/Resume'
-import { useState } from 'react'
-
-
-
-
-
-
-
+import HideAppBar from './Components/HideAppBar'
 function App() {
-  const [isResume, setResume] = useState(false)
+
   return (
     <div className="App">
-      <Home isResume={isResume} toggleResume={() => setResume(!isResume)} />
+      <HideAppBar />
     </div >
   );
 }
-
 export default App;

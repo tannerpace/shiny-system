@@ -6,16 +6,18 @@ import Contact from '../Contact'
 import Nav from '../Nav'
 import Resume from '../Resume'
 
-export default function Home({ isResume, toggleResume }) {
+export default function Home() {
 
 
     return (
         <div>
             <Box >
-                {!isResume ? (<Box>
-                    <Welcome toggleResume={toggleResume} />
+                <Box>
+                    <Welcome />
                     <Projects />
-                    <Contact /></Box>) : (<Box><Resume toggleResume={toggleResume} /> </Box>)}
+                    <Contact />
+                    <Resume />
+                </Box>
             </Box>
         </div>
     )
