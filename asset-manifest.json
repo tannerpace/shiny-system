@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shiney-system/static/css/main.a06cd7c2.chunk.css",
-    "main.js": "/shiney-system/static/js/main.ba6cc4e8.chunk.js",
-    "main.js.map": "/shiney-system/static/js/main.ba6cc4e8.chunk.js.map",
+    "main.js": "/shiney-system/static/js/main.e23bd83a.chunk.js",
+    "main.js.map": "/shiney-system/static/js/main.e23bd83a.chunk.js.map",
     "runtime-main.js": "/shiney-system/static/js/runtime-main.e773b3de.js",
     "runtime-main.js.map": "/shiney-system/static/js/runtime-main.e773b3de.js.map",
     "static/js/2.2e64ac0e.chunk.js": "/shiney-system/static/js/2.2e64ac0e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e773b3de.js",
     "static/js/2.2e64ac0e.chunk.js",
     "static/css/main.a06cd7c2.chunk.css",
-    "static/js/main.ba6cc4e8.chunk.js"
+    "static/js/main.e23bd83a.chunk.js"
   ]
 }
