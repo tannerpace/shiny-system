@@ -8,6 +8,9 @@ const Nav = () => {
         <nav id="navbar" class="nav">
             <ul class="nav-list">
                 <li>
+                    <div><Link smooth to="/shiny-system#about" class="btn btn-sm animated-button victoria-two">About</Link> </div>
+                </li>
+                <li>
                     <div >
                         <HashLink smooth to="/shiny-system#contact" class="btn btn-sm animated-button victoria-one">Contact</HashLink></div>
                 </li>
@@ -17,9 +20,7 @@ const Nav = () => {
                         class="btn btn-sm animated-button victoria-two">Projects</HashLink>  </div>
                 </li>
 
-                <li>
-                    <div><Link smooth to="/shiny-system#about" class="btn btn-sm animated-button victoria-two">About</Link> </div>
-                </li>
+
                 <li>
                     <div ><HashLink smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two" >Resume</HashLink></div>
                 </li>
