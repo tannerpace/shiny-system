@@ -10,18 +10,18 @@ const Nav = () => {
         <nav id="navbar" >
             <ul class="nav-list">
                 <li>
-                    <div><Link smooth to="/shiny-system/welcome" class="btn navbtn btn-sm animated-button victoria-two">About</Link></div>
+                    <div><Link smooth to="/shiny-system/welcome" class="btn  btn-sm animated-button victoria-two">About</Link></div>
                 </li>
                 <li>
                     <div >
-                        <Link smooth to="/shiny-system/projects" class="btn navbtn btn-sm animated-button victoria-one">Projects</Link></div>
+                        <Link smooth to="/shiny-system/projects" class="btn  btn-sm animated-button victoria-one">Projects</Link></div>
                 </li>
                 <li>
                     <div ><Link smooth to="/shiny-system/contact"
-                        class="btn btn-sm animated-button victoria-two navbtn">Contact</Link>  </div>
+                        class="btn btn-sm animated-button victoria-two ">Contact</Link>  </div>
                 </li>
                 <li>
-                    <div ><Link smooth to="/shiny-system/resume" class="btn navbtn btn-sm animated-button victoria-two">Resume</Link></div>
+                    <div ><Link smooth to="/shiny-system/resume" class="btn  btn-sm animated-button victoria-two">Resume</Link></div>
                 </li>
 
             </ul >

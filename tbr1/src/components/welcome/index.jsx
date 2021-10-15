@@ -10,7 +10,7 @@ const Welcome = () => {
                 sx={{
                     margin: "auto",
                     width: 300,
-                    height: "auto",
+                    // height: "auto",
 
                 }}
             >

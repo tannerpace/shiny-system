@@ -8,10 +8,22 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
-import Home from '../Home';
-import Nav from '../Nav';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
+import Nav from '../Nav';
+
+
+import {
+
+    Switch,
+    Route,
+
+} from "react-router-dom";
+import Welcome from '../Welcome'
+import Projects from '../Projects'
+import Resume from '../Resume'
+import Contact from '../Contact'
+import MyTyper from '../MyTyper';
 
 
 
@@ -42,31 +54,46 @@ export default function HideAppBar(props) {
             <HideOnScroll {...props}>
                 <AppBar>
                     <Toolbar >
-                        {/* <li>
-                            <div><Link smooth to="/shiny-system/welcome" class="btn btn-sm animated-button victoria-two">About</Link></div>
-                        </li>
-                        <li>
-                            <div >
-                                <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link></div>
-                        </li>
-                        <li>
-                            <div ><Link smooth to="/shiny-system/contact"
-                                class="btn btn-sm animated-button victoria-two">Contact</Link>  </div>
-                        </li>
-                        <li>
-                            <div ><Link smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</Link></div>
-                        </li> */}
-                        <Nav></Nav>
+
+                        <Link smooth to="/shiny-system/welcome" class="btn btn-sm animated-button victoria-two">About</Link>
+
+
+
+                        <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link>
+
+
+                        <Link smooth to="/shiny-system/contact"
+                            class="btn btn-sm animated-button victoria-two">Contact</Link>
+
+                        <Link smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</Link>
+
+                        {/* <Nav></Nav> */}
                     </Toolbar>
                 </AppBar>
-            </HideOnScroll>
+            </HideOnScroll >
             <Toolbar />
-            {/* <Container>
+            <Container>
                 <Box sx={{ my: 2 }}>
-                    <Home />
+                    <Switch>
+                        <Route exact path="/shiny-system/welcome">
+                            <Container >
+                                <MyTyper />
+                            </Container>
+
+                        </Route>
+                        <Route path="/shiny-system/projects">
+                            <Projects />
+                        </Route>
+                        <Route path="/shiny-system/contact">
+                            <Contact />
+                        </Route >
+                        <Route path="/shiny-system/resume">
+                            <Resume />
+                        </Route>
+                    </Switch>
                 </Box>
-            </Container> */}
-        </React.Fragment>
+            </Container>
+        </React.Fragment >
 
     );
 }
