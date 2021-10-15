@@ -75,7 +75,7 @@ export default function HideAppBar(props) {
             <Container>
                 <Box sx={{ my: 2 }}>
                     <Switch>
-                        <Route exact path="/shiny-system/welcome">
+                        <Route exact path="/shiny-system/">
 
                             <MyTyper />
 
