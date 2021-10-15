@@ -5,7 +5,7 @@ import { ReactSVG } from 'react-svg'
 
 export default function Resume() {
     return (
-        <ReactSVG className='resume'
+        <ReactSVG className='resume' alt="photo of tanner"
             src="resume.svg"
         />
 
