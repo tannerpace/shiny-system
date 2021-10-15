@@ -1,3 +1,5 @@
 {
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "prettier.requirePragma": true,
+    "eslint.format.enable": true
 }

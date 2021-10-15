@@ -17,7 +17,8 @@ const Welcome = () => {
                 <div class="welcome-section" id="about">
                     <MyTyper></MyTyper>
                 </div>
-                <a href='#projects'>  <span></span></a>
+                {/* this is an animated down arrow */}
+                {/* <a href='#projects'>  <span></span></a> */}
             </Box>
         </section>
 

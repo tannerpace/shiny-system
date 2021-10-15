@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
 import Home from '../Home';
 import Nav from '../Nav';
+import { Link } from 'react-router-dom'
 
 
 
@@ -40,17 +41,31 @@ export default function HideAppBar(props) {
             <CssBaseline />
             <HideOnScroll {...props}>
                 <AppBar>
-                    <Toolbar>
-                        <Nav />
+                    <Toolbar >
+                        {/* <li>
+                            <div><Link smooth to="/shiny-system/welcome" class="btn btn-sm animated-button victoria-two">About</Link></div>
+                        </li>
+                        <li>
+                            <div >
+                                <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link></div>
+                        </li>
+                        <li>
+                            <div ><Link smooth to="/shiny-system/contact"
+                                class="btn btn-sm animated-button victoria-two">Contact</Link>  </div>
+                        </li>
+                        <li>
+                            <div ><Link smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</Link></div>
+                        </li> */}
+                        <Nav></Nav>
                     </Toolbar>
                 </AppBar>
             </HideOnScroll>
             <Toolbar />
-            <Container>
+            {/* <Container>
                 <Box sx={{ my: 2 }}>
                     <Home />
                 </Box>
-            </Container>
+            </Container> */}
         </React.Fragment>
 
     );

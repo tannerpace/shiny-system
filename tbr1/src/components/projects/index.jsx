@@ -24,7 +24,7 @@ export default function Projects() {
                         </p>
                     </a>
                     <a href="https://tannerpace.github.io/Todo-React/" target="_blank" class="project project-tile">
-                        <img class="project-image" src="images/todo.png" alt="project" />
+                        <img class="project-image" src="images/todophoto.png" alt="project" />
                         <p class="project-title">
                             <span class="code">&lt;</span>
                             A-Todo-App-With-Filter

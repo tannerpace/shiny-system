@@ -6,8 +6,8 @@ export default function Contact() {
         <section id="contact" class="contact-section">
             <div class="contact-section-header">
                 <h2>Get in touch to chat about a project!</h2>
-                <p>Interested in kiteboarding or drones?</p>
-                <p>Say hi!</p>
+                <p className='chat'>Leave me A Voice Mail</p>
+                <p className='chat'>Say hi!</p>
 
             </div>
             <div class="contact-links">

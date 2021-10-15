@@ -1,33 +1,33 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom'
+import { AppBar } from '@mui/material'
+
 
 const Nav = () => {
 
     return (
-        <nav id="navbar" class="nav">
+
+        <nav id="navbar" >
             <ul class="nav-list">
                 <li>
-                    <div><Link smooth to="/shiny-system/#about" class="btn btn-sm animated-button victoria-two">About</Link> </div>
+                    <div><Link smooth to="/shiny-system/welcome" class="btn navbtn btn-sm animated-button victoria-two">About</Link></div>
                 </li>
                 <li>
                     <div >
-                        <HashLink smooth to="/shiny-system/#contact" class="btn btn-sm animated-button victoria-one">Contact</HashLink></div>
+                        <Link smooth to="/shiny-system/projects" class="btn navbtn btn-sm animated-button victoria-one">Projects</Link></div>
                 </li>
-
                 <li>
-                    <div ><HashLink smooth to="/shiny-system/#projects"
-                        class="btn btn-sm animated-button victoria-two">Projects</HashLink>  </div>
+                    <div ><Link smooth to="/shiny-system/contact"
+                        class="btn btn-sm animated-button victoria-two navbtn">Contact</Link>  </div>
                 </li>
-
-
                 <li>
-                    <div ><HashLink smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</HashLink></div>
+                    <div ><Link smooth to="/shiny-system/resume" class="btn navbtn btn-sm animated-button victoria-two">Resume</Link></div>
                 </li>
 
             </ul >
 
-        </nav >)
+        </nav >
+    )
 }
 
 export default Nav
