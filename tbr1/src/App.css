@@ -379,7 +379,7 @@ a.animated-button:visited {
   position: relative;
   display: block;
 
-  padding: 14px 15px;
+  padding: 10px;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -423,7 +423,7 @@ a.animated-button:visited {
   position: relative;
   display: block;
 
-  padding: 14px 15px;
+  padding: 10px;
   color: #fff;
   font-size: 14px;
   border-radius: 0;
@@ -441,7 +441,7 @@ a.animated-button:visited {
 }
 
 a.animated-button.victoria-one {
-  border: 2px solid #9a009f35;
+  border: 1px solid #9a009f35;
 }
 a.animated-button.victoria-one:after {
   background: #af00bf;
@@ -451,7 +451,7 @@ a.animated-button.victoria-one:after {
   transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 a.animated-button.victoria-two {
-  border: 2px solid #9a009f35;
+  border: 1px solid #9a009f35;
 }
 a.animated-button.victoria-two:after {
   background: #af00bf;
@@ -461,7 +461,7 @@ a.animated-button.victoria-two:after {
   transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 a.animated-button.victoria-three {
-  border: 2px solid #9a009f35;
+  border: 1px solid #9a009f35;
 }
 a.animated-button.victoria-three:after {
   background: #af00bf;
@@ -476,7 +476,7 @@ a.animated-button.victoria-three:hover:after {
   opacity: 1;
 }
 a.animated-button.victoria-four {
-  border: 2px solid #9a009f35;
+  border: 1px solid #9a009f35;
 }
 a.animated-button.victoria-four:after {
   background: #af00bf;
@@ -928,8 +928,19 @@ body {
   top: 0;
   left: 0;
   transition: top 0.3s;
-  display: block;
+  display: flex;
    width: 100%;
+   display: flex;
+  /* justify-content: center; */
+ 
+  top: 0;
+  left: 0;
+
+  transition: top 0.3s;
+  display: block;
+  z-index: 1;
+  align-items: center;
+
 
 
 }
@@ -937,9 +948,7 @@ body {
   font-size: 2rem;
 }
 
-.nav-list{
-  margin: auto;
-  justify-content: center}
+
 
   .resume{
     height: 100%;
@@ -947,7 +956,7 @@ body {
 
 
 .nav-list {
-  display: flex;
+  /* display: flex; */
   /* align-items: baseline; */
   /* justify-items: center; */
   margin: 2rem;
@@ -963,20 +972,16 @@ border-radius: 20px;
   font-size: 3em !important;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
 
-  transition: top 0.3s;
-  display: block;
-  z-index: 1;
-  align-items: center;
-}
+  
 
 .nav-list {
   display: flex;
   margin-right: 2rem;
+}
+
+.App{
+  margin: 0;
+  width: 100vw;
+  height: auto;
 }
