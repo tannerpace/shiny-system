@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box } from '@mui/system'
+
 import Welcome from '../Welcome'
 import Projects from '../Projects'
 import Resume from '../Resume'
@@ -10,7 +10,7 @@ import {
 
     Switch,
     Route,
-    Link
+
 } from "react-router-dom";
 export default function Home() {
 

@@ -10,14 +10,15 @@ const Welcome = () => {
                 sx={{
                     margin: "auto",
                     width: 300,
-                    height: "auto",
+                    // height: "auto",
 
                 }}
             >
                 <div class="welcome-section" id="about">
                     <MyTyper></MyTyper>
                 </div>
-                <a href='#projects'>  <span></span></a>
+                {/* this is an animated down arrow */}
+                {/* <a href='#projects'>  <span></span></a> */}
             </Box>
         </section>
 

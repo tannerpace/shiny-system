@@ -8,9 +8,21 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
-import Home from '../Home';
-import Nav from '../Nav';
 
+
+
+
+import {
+    Link,
+    Switch,
+    Route,
+
+} from "react-router-dom";
+
+import Projects from '../Projects'
+import Resume from '../Resume'
+import Contact from '../Contact'
+import MyTyper from '../MyTyper';
 
 
 
@@ -40,18 +52,38 @@ export default function HideAppBar(props) {
             <CssBaseline />
             <HideOnScroll {...props}>
                 <AppBar>
-                    <Toolbar>
-                        <Nav />
+                    <Toolbar >
+
+                        <Link smooth to="/shiny-system/" class="btn btn-sm animated-button victoria-two">About</Link>
+                        <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link>
+                        <Link smooth to="/shiny-system/contact"
+                            class="btn btn-sm animated-button victoria-two">Contact</Link>
+                        <Link smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</Link>
+
+
                     </Toolbar>
                 </AppBar>
-            </HideOnScroll>
+            </HideOnScroll >
             <Toolbar />
             <Container>
                 <Box sx={{ my: 2 }}>
-                    <Home />
+                    <Switch>
+                        <Route exact path="/shiny-system/">
+                            <MyTyper />
+                        </Route>
+                        <Route path="/shiny-system/projects">
+                            <Projects />
+                        </Route>
+                        <Route path="/shiny-system/contact">
+                            <Contact />
+                        </Route >
+                        <Route path="/shiny-system/resume">
+                            <Resume />
+                        </Route>
+                    </Switch>
                 </Box>
             </Container>
-        </React.Fragment>
+        </React.Fragment >
 
     );
 }

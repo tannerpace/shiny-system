@@ -1,10 +1,15 @@
 import './App.css'
-import HideAppBar from './Components/HideAppBar'
+import React, { useState } from 'react'
+
+import HideAppBar from './Components/HideAppBar';
+
 function App() {
 
   return (
     <div className="App">
       <HideAppBar />
+      {/* <Nav /> */}
+
     </div >
   );
 }

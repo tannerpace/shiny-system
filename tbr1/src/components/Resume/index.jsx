@@ -1,20 +1,15 @@
+import { Container } from '@mui/material'
 import React from 'react'
 import { ReactSVG } from 'react-svg'
 
+
 export default function Resume() {
-
-
     return (
-        <div class="resume-container">
-            <div id="#resume">
-                {/* <a href="#navbar"
-                    class="btn btn-sm animated-button victoria-three">Back</a> */}
-            </div>
-            <ReactSVG
-                src=".resume.svg"
-            />
+        <ReactSVG className='resume' alt="photo of tanner"
+            src="resume.svg"
+        />
 
-            resumewokr
-        </div>
+
+
     )
 }
