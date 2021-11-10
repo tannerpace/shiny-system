@@ -1,7 +1,6 @@
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
-import { Box } from '@mui/system'
-import PhotoOfMe from '../PhotoOfMe';
-const Welcome = [" Hello World!,\n my name is Tanner Bleakley.\nI am a full stack web developer. I have experience with, Javascript\nTypescript\nAngular React MaterialUI \Express\nAxios\nmySQL\nMongoDB The list is always growing! "];
+import { useTypewriter } from 'react-simple-typewriter'
+
+const Welcome = [" Hello I am Tanner, a passionate full stack web developer!  "];
 const WelcomeSpeed = 30
 
 
@@ -9,10 +8,10 @@ const WelcomeSpeed = 30
 
 const MyTyper = () => {
 
-  const handleType = (count) => {
-    // access word count number
+  // const handleType = (count) => {
+  //   // access word count number
 
-  }
+  // }
 
 
   const { text } = useTypewriter({
@@ -28,8 +27,9 @@ const MyTyper = () => {
             {text}
           </p>
 
-        </div>
 
+        </div>
+        <a href='https://www.youtube.com/watch?v=2N6p5ztK9XA&list=PLj8SrFINJMkqqPLUi1tLMuiTVmgzJyCkT'>  <div class="round-button"><i >On U-tube</i></div></a>
       </div>
 
     </div>

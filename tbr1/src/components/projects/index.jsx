@@ -7,7 +7,7 @@ export default function Projects() {
         <h2 class="projects-section-header">These are some of my projects</h2>
 
         <div class="projects-grid">
-          <a href="https://tannerpace.github.io/crispy-couscous/" target="_blank" class="project project-tile">
+          <a href="https://tannerpace.github.io/crispy-couscous/" class="project project-tile">
             <img class="project-image" src="images/typer.png" alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -15,7 +15,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" target="_blank" class="project project-tile">
+          <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" class="project project-tile">
             <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -23,7 +23,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://tannerpace.github.io/Todo-React/" target="_blank" class="project project-tile">
+          <a href="https://tannerpace.github.io/Todo-React/" class="project project-tile">
             <img class="project-image" src="images/todophoto.png" alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -31,7 +31,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://tannerpace.github.io/MemeMaker/" target="_blank" class="project project-tile">
+          <a href="https://tannerpace.github.io/MemeMaker/" class="project project-tile">
             <img class="project-image" src="images/mememaker.png" alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -39,7 +39,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://singlepage.d1zqi00jmrlymq.amplifyapp.com/#page-top" target="_blank"
+          <a href="https://singlepage.d1zqi00jmrlymq.amplifyapp.com/#page-top"
             class="project project-tile">
             <img class="project-image" src="images/air.png" alt="project" />
             <p class="project-title">
@@ -48,7 +48,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://main.d3ofdvrmegm1nc.amplifyapp.com/pages/shapley.html" target="_blank" class="project project-tile">
+          <a href="https://main.d3ofdvrmegm1nc.amplifyapp.com/pages/shapley.html" class="project project-tile">
             <img class="project-image" src="images/shapley.png" alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
