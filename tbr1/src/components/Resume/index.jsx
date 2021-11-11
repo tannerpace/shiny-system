@@ -1,14 +1,13 @@
 import React from 'react'
-import { ReactSVG } from 'react-svg'
+import { ReactComponent as ResumeSvg } from "./resume.svg"
+import useStyles from "./styles"
 
 
 export default function Resume() {
+  const classes = useStyles()
   return (
-    <ReactSVG className='resume' alt="photo of tanner"
-      src="resume.svg"
-    />
-
-
-
+    <div className={classes.resume__wrapper}>
+      <ResumeSvg className={classes.resume} />
+    </div>
   )
 }
