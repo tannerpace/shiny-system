@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter as Router } from "react-router-dom"
-
-
+import { MuiThemeProvider } from "@material-ui/core/styles"
+import theme from "./themes/main"
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
+
+  <Router>
+    <MuiThemeProvider theme={theme}>
       <App />
-    </Router>
-  </React.StrictMode>,
+    </MuiThemeProvider>
+  </Router >
+  ,
   document.getElementById('root')
 );
 
