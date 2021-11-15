@@ -7,7 +7,7 @@ export default function Resume() {
   const classes = useStyles()
   return (
     <div >
-      {/* <img src={resume} alt="Tanners resume" /> */}
+
       <ResumeSvg className={classes.resume} />
     </div >
   )
