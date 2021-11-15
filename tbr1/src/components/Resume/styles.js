@@ -35,7 +35,8 @@ const styles = makeStyles((theme) => ({
       backgroundColor: "rgba(0, 0, 0, 0.87)",
 
       boxShadow: "2px 2px 10px rgba(2, 3, 11, 0.1)",
-      borderImageSource: "linear - gradient(to left, #00C853, #B2FF59)"
+      borderImageSource: "linear - gradient(to left, #00C853, #B2FF59)",
+      scale: "1.1",
     }
   },
   filler: {
