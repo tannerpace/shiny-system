@@ -15,14 +15,7 @@ export default function Projects() {
               <span class="code">&#47;&gt;</span>
             </p>
           </a>
-          <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" target="_blank" rel="noopener noreferrer" class="project project-tile">
-            <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
-            <p class="project-title">
-              <span class="code">&lt;</span>
-              Full-Stack-Ecommerce-Parts-Store
-              <span class="code">&#47;&gt;</span>
-            </p>
-          </a>
+
           <a href="https://tannerpace.github.io/Todo-React/" target="_blank" rel="noopener noreferrer" class="project project-tile">
             <img class="project-image" src="images/todophoto.png" alt="project" />
             <p class="project-title">
@@ -54,6 +47,14 @@ export default function Projects() {
             <p class="project-title">
               <span class="code">&lt;</span>
               Tribute-Page-To-Lloyd-Shapley
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+          <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" target="_blank" rel="noopener noreferrer" class="project project-tile">
+            <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Full-Stack-Ecommerce-Parts-Store
               <span class="code">&#47;&gt;</span>
             </p>
           </a>

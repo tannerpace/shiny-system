@@ -6,8 +6,9 @@ import useStyles from "./styles"
 export default function Resume() {
   const classes = useStyles()
   return (
-    <div className={classes.resume__wrapper}>
+    <div >
+      {/* <img src={resume} alt="Tanners resume" /> */}
       <ResumeSvg className={classes.resume} />
-    </div>
+    </div >
   )
 }
