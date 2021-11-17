@@ -31,7 +31,7 @@ const MyTyper = () => {
         </div>
 
       </div>
-      <a href='https://www.youtube.com/watch?v=2N6p5ztK9XA&list=PLj8SrFINJMkqqPLUi1tLMuiTVmgzJyCkT' target="_blank" rel="noopener noreferrer">  <div class="round-button">My Youtube</div></a>
+      {/* <a href='https://www.youtube.com/watch?v=2N6p5ztK9XA&list=PLj8SrFINJMkqqPLUi1tLMuiTVmgzJyCkT' target="_blank" rel="noopener noreferrer">  <div class="round-button">My Youtube</div></a> */}
     </div>
 
   </>
