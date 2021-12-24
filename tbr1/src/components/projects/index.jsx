@@ -7,6 +7,14 @@ export default function Projects() {
         <h2 class="projects-section-header">These are some of my projects</h2>
 
         <div class="projects-grid">
+          <a href="http://kitesurf.ninja" target="_blank" rel="noopener noreferrer" class="project project-tile">
+            <img class="project-image" src="images/kitesurfninja.png" alt="project" />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Kitesurf.ninja
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
           <a href="https://tannerpace.github.io/crispy-couscous/" target="_blank" rel="noopener noreferrer" class="project project-tile">
             <img class="project-image" src="images/typer.png" alt="project" />
             <p class="project-title">
