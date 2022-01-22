@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter as Router } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 import { MuiThemeProvider } from "@material-ui/core/styles"
 import theme from "./themes/main"
 
-
 ReactDOM.render(
-
-  <Router>
+  <React.StrictMode>
     <MuiThemeProvider theme={theme}>
-      <App />
+      <HashRouter>
+        <App />
+      </HashRouter>
     </MuiThemeProvider>
-  </Router >
-  ,
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
 
