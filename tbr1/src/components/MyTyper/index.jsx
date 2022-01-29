@@ -24,7 +24,9 @@ const MyTyper = () => {
       <div class="talk-bubble tri-right border round btm-right-in">
         <div class="talktext">
           <p>
-            {text}
+            <span style={{ color: 'red', fontWeight: 'bold', fontSize: "2.2rem" }}>
+              {text}
+            </span>
           </p>
 
 
