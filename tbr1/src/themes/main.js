@@ -19,12 +19,7 @@ const text = {
 
 const spacing = (factor) => factor * 8
 
-
-
 export default createTheme({
-
-
-
   spacing,
   palette: {
     primary,

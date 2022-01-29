@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
-import Box from '@material-ui/core/Box'
 import { ReactComponent as ResumeSvg } from "./1.svg"
 import { ReactComponent as ResumeSvg2 } from "./2.svg"
 import useStyles from "./styles"

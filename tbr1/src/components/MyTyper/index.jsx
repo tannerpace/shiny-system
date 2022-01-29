@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { useTypewriter } from 'react-simple-typewriter'
 
 const Welcome = [" Hello I am Tanner, a passionate full stack web developer!  "];
@@ -7,12 +8,6 @@ const WelcomeSpeed = 30
 
 
 const MyTyper = () => {
-
-  // const handleType = (count) => {
-  //   // access word count number
-
-  // }
-
 
   const { text } = useTypewriter({
     words: Welcome, typeSpeed: WelcomeSpeed,
@@ -24,9 +19,9 @@ const MyTyper = () => {
       <div class="talk-bubble tri-right border round btm-right-in">
         <div class="talktext">
           <p>
-            <span style={{ color: 'red', fontWeight: 'bold', fontSize: "2.2rem" }}>
+            <Typography style={{ fontSize: "2rem" }} >
               {text}
-            </span>
+            </Typography>
           </p>
 
 
