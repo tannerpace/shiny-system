@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/shiny-system/static/css/main.59bffde5.chunk.css",
-    "main.js": "/shiny-system/static/js/main.3b4d8010.chunk.js",
-    "main.js.map": "/shiny-system/static/js/main.3b4d8010.chunk.js.map",
+    "main.js": "/shiny-system/static/js/main.df0c01e9.chunk.js",
+    "main.js.map": "/shiny-system/static/js/main.df0c01e9.chunk.js.map",
     "runtime-main.js": "/shiny-system/static/js/runtime-main.58f75e3e.js",
     "runtime-main.js.map": "/shiny-system/static/js/runtime-main.58f75e3e.js.map",
-    "static/js/2.e5a46e65.chunk.js": "/shiny-system/static/js/2.e5a46e65.chunk.js",
-    "static/js/2.e5a46e65.chunk.js.map": "/shiny-system/static/js/2.e5a46e65.chunk.js.map",
+    "static/js/2.f67d07ff.chunk.js": "/shiny-system/static/js/2.f67d07ff.chunk.js",
+    "static/js/2.f67d07ff.chunk.js.map": "/shiny-system/static/js/2.f67d07ff.chunk.js.map",
     "index.html": "/shiny-system/index.html",
     "static/css/main.59bffde5.chunk.css.map": "/shiny-system/static/css/main.59bffde5.chunk.css.map",
-    "static/js/2.e5a46e65.chunk.js.LICENSE.txt": "/shiny-system/static/js/2.e5a46e65.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/shiny-system/static/media/photo__of__me.6707f728.png",
-    "static/media/resume.9b14f391.svg": "/shiny-system/static/media/resume.9b14f391.svg"
+    "static/js/2.f67d07ff.chunk.js.LICENSE.txt": "/shiny-system/static/js/2.f67d07ff.chunk.js.LICENSE.txt",
+    "static/media/1.af633311.svg": "/shiny-system/static/media/1.af633311.svg",
+    "static/media/2.edc0d1ae.svg": "/shiny-system/static/media/2.edc0d1ae.svg",
+    "static/media/App.css": "/shiny-system/static/media/photo__of__me.6707f728.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58f75e3e.js",
-    "static/js/2.e5a46e65.chunk.js",
+    "static/js/2.f67d07ff.chunk.js",
     "static/css/main.59bffde5.chunk.css",
-    "static/js/main.3b4d8010.chunk.js"
+    "static/js/main.df0c01e9.chunk.js"
   ]
 }
