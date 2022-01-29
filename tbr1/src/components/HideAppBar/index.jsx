@@ -54,7 +54,7 @@ export default function HideAppBar(props) {
         <AppBar>
           <Toolbar >
 
-            <Link smooth to="/shiny-system/" class="btn btn-sm animated-button victoria-two">About</Link>
+            <Link smooth to="/" class="btn btn-sm animated-button victoria-two">About</Link>
             <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link>
             <Link smooth to="/shiny-system/contact"
               class="btn btn-sm animated-button victoria-two">Contact</Link>
@@ -68,7 +68,7 @@ export default function HideAppBar(props) {
       <Container>
         <Box sx={{ my: 2 }}>
           <Switch>
-            <Route exact path="/shiny-system/">
+            <Route exact path="/">
               <MyTyper />
             </Route>
             <Route path="/shiny-system/projects">

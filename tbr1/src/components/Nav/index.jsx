@@ -1,33 +1,33 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { AppBar } from '@mui/material'
+// import React from 'react'
+// import { Link } from 'react-router-dom'
+// import { AppBar } from '@mui/material'
 
 
-const Nav = () => {
+// const Nav = () => {
 
-  return (
+//   return (
 
-    <nav id="navbar" >
-      <ul class="nav-list">
-        <li >
-          <div><Link smooth to="/shiny-system/welcome" class="btn  btn-sm animated-button victoria-two" >About</Link></div>
-        </li>
-        <li>
-          <div >
-            <Link smooth to="/shiny-system/projects" class="btn  btn-sm animated-button victoria-one">Projects</Link></div>
-        </li>
-        <li>
-          <div ><Link smooth to="/shiny-system/contact"
-            class="btn btn-sm animated-button victoria-two ">Contact</Link>  </div>
-        </li>
-        <li>
-          <div ><Link smooth to="/shiny-system/resume" class="btn  btn-sm animated-button victoria-two">Resume</Link></div>
-        </li>
+//     <nav id="navbar" >
+//       <ul class="nav-list">
+//         <li >
+//           <div><Link smooth to="" class="btn  btn-sm animated-button victoria-two" >About</Link></div>
+//         </li>
+//         <li>
+//           <div >
+//             <Link smooth to="/shiny-system/projects" class="btn  btn-sm animated-button victoria-one">Projects</Link></div>
+//         </li>
+//         <li>
+//           <div ><Link smooth to="/shiny-system/contact"
+//             class="btn btn-sm animated-button victoria-two ">Contact</Link>  </div>
+//         </li>
+//         <li>
+//           <div ><Link smooth to="/shiny-system/resume" class="btn  btn-sm animated-button victoria-two">Resume</Link></div>
+//         </li>
 
-      </ul >
+//       </ul >
 
-    </nav >
-  )
-}
+//     </nav >
+//   )
+// }
 
-export default Nav
+// export default Nav

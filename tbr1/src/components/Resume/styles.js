@@ -3,29 +3,10 @@ import { makeStyles } from "@mui/styles";
 
 const styles = makeStyles((theme) => ({
   resume__wrapper: {
-    // backgroundImage: `url(${resume})`,
-    // backgroundSize: "cover",
-    // backgroundPosition: "center",
-    // backgroundRepeat: "no-repeat",
-    // height: "90vh",
-    // display: "flex",
-    // justifyContent: "center",
-    // overflowX: "auto",
-    // boxSizing: "content-box",
-    // backgroundColor: "rgba(2, 3, 11, 0.1)",
-    // alignContent: "center",
-    // alignItems: "center",
-    // // margin: "0 auto",
-    // borderRadius: "10px",
-    // transition: "all 0.5s ease",
-    // "&:hover": {
-    //   backgroundColor: "rgba(2, 3, 11, 0.2)",
-    //   boxShadow: "0px 0px 10px rgba(255,255,100,1)"
-
-    // }
+    margin: "60px 0px 0px 0px",
   },
 
-  resume: {
+  svg: {
     display: "flex",
     width: "100%",
 
