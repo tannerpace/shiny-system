@@ -31,25 +31,3 @@ const styles = makeStyles((theme) => ({
 
 export default styles;
 
-// display: flex;
-// border: "solid red 10px";
-//  justify-content: center;
-//  align-content: center;
-// background-color: rgba(2, 3, 11, 0.1);
-//  border-radius: 30px;
-//  padding: 2rem;
-//  color: whitesmoke;
-//  font-weight: bold;
-//  text-align: center;
-//  text-decoration: none;
-//  transition: all 0.3s ease;
-//  overflow-inline: auto;
-//  max-width: 100%;
-//  max-height: 100%;
-
-// .resume__wrapper:hover{
-//   background-color: rgba(0, 0, 0, 0.5);
-//   color: rgb(212, 255, 0);
-//   box-shadow: 0px 0px 10px rgba(255,255,100,1);
-//   font-size: larger;
-// }
