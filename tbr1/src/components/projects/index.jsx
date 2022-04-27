@@ -8,7 +8,7 @@ export default function Projects() {
 
         <div class="projects-grid">
           <a href="http://kitesurf.ninja" target="_blank" rel="noopener noreferrer" class="project project-tile">
-            <img class="project-image" src="https://github.com/tannerpace/Dronelab/blob/master/kitesurfninja.png?raw=true" alt="project" />
+            <img class="project-image" src="images/photoKite" alt="project" />
             <p class="project-title">
               <span class="code">&lt;</span>
               Kitesurf.ninja
