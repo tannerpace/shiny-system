@@ -9,11 +9,11 @@ const styles = makeStyles((theme) => ({
   svg: {
     display: "flex",
     width: "100%",
-
+    backgroundColor: "white",
     transition: "all 2.5s ease",
     marginTop: "-10px",
     '&:hover': {
-      backgroundColor: "rgba(0, 0, 0, 0.87)",
+      backgroundColor: "white",
 
       boxShadow: "2px 2px 10px rgba(2, 3, 11, 0.1)",
       borderImageSource: "linear - gradient(to left, #00C853, #B2FF59)",

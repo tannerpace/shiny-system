@@ -53,14 +53,11 @@ export default function HideAppBar(props) {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar >
-
             <Link smooth to="/" class="btn btn-sm animated-button victoria-two">About</Link>
             <Link smooth to="/shiny-system/projects" class="btn btn-sm animated-button victoria-one">Projects</Link>
             <Link smooth to="/shiny-system/contact"
               class="btn btn-sm animated-button victoria-two">Contact</Link>
             <Link smooth to="/shiny-system/resume" class="btn btn-sm animated-button victoria-two">Resume</Link>
-
-
           </Toolbar>
         </AppBar>
       </HideOnScroll >
