@@ -24,9 +24,6 @@ import Resume from '../Resume'
 import Contact from '../Contact'
 import MyTyper from '../MyTyper';
 
-
-
-
 function HideOnScroll(props) {
   const { children, window, } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
