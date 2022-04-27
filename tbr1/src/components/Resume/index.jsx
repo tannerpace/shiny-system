@@ -7,16 +7,28 @@ import { Box } from "@material-ui/core"
 export default function Resume() {
   const [page, setPage] = React.useState(true)
   const classes = useStyles()
+  // a function to send an email to the user
+
+  
+
+  
+  const handleClick = () => {
+    window.open("https://www.linkedin.com/in/tannerbleakley/")
+  }
+
+  
+
+
   return (
     <section id="contact" class="contact-section">
       <div class="contact-section-header" className={classes.resume__wrapper}>
     
-          <Box marginTop={"70px"} >
+          <Box marginTop={"170px"} >
             <Button
               variant="contained"
               color="primary"
               className={classes.button}
-              onClick={() => setPage(false)}
+              onClick={handleClick}
             >
               <ResumeSvg className={classes.svg} />
 
